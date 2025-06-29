@@ -1,0 +1,45 @@
+# Core dependencies for CODY Agent
+openai>=1.0.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# Rich console and UI
+rich>=13.0.0
+prompt-toolkit>=3.0.0
+
+# Fuzzy matching
+thefuzz>=0.19.0
+python-levenshtein>=0.20.0
+
+# Code analysis and parsing
+tree-sitter>=0.20.0
+pylint>=3.0.0
+astroid>=3.0.0
+
+# Web search and scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+
+# AI and ML
+google-generativeai>=0.3.0
+
+# Development and testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+isort>=5.12.0
+
+# System monitoring and performance
+psutil>=5.9.0
+
+# Optional performance enhancements
+uvloop>=0.17.0; sys_platform != "win32"
+orjson>=3.9.0
+
+# Documentation
+sphinx>=7.0.0
+sphinx-rtd-theme>=1.3.0
+
+# New dependencies based on research insights
+numpy
+pandas
